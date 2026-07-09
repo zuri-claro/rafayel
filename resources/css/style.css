@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b132b; /* Deep ocean blue */
+    color: #e0e1dd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #1c2541;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+header h1 {
+    color: #ff9f1c; /* A spark of fire for his evol */
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #5bc0be;
+    margin-bottom: 30px;
+}
+
+/* Image Styling */
+.hero-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #5bc0be;
+    margin-bottom: 20px;
+}
+
+.bio h2 {
+    color: #5bc0be;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    background-color: #0b132b;
+    padding: 15px;
+    border-left: 5px solid #ff9f1c;
+    border-radius: 5px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #697a8d;
+    margin-top: 20px;
+}
